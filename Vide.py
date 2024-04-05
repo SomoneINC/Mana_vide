@@ -51,7 +51,7 @@ PassBox = driver.find_element(By.XPATH, PasswordXPath)
 UserBox.send_keys(Username)
 PassBox.send_keys(Password)
 driver.find_element(By.XPATH, LoginXPath).click()
-
+time.sleep(500)
 
 #Scrape
 x = 0
